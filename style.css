@@ -1,0 +1,88 @@
+body {
+    background-color: #fff6e5;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    color: #d35400;
+}
+
+p {
+    font-size: 18px;
+}
+/* MENU */
+header {
+    background-color: #d35400;
+    color: white;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* SECTION PRINCIPALE */
+.hero {
+    padding: 60px;
+    background-color: #fff6e5;
+    text-align: center;
+}
+
+/* PAGE CONTACT */
+.contact {
+    padding: 50px;
+    text-align: center;
+}
+
+.contact h2 {
+    color: #d35400;
+}
+
+form {
+    max-width: 400px;
+    margin: 30px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+input, textarea {
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #d35400;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #b84300;
+}
+
+.whatsapp {
+    display: inline-block;
+    margin-top: 20px;
+    background-color: #25D366;
+    color: white;
+    padding: 12px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
