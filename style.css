@@ -182,6 +182,11 @@ button:hover {
     border-radius: 5px;
     font-weight: bold;
 }
+.box {
+    width: 100%;
+    max-width: 320px;
+}
+
 
 
 
@@ -189,6 +194,7 @@ button:hover {
    
       
         
+
 
 
 
