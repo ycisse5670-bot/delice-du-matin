@@ -88,51 +88,10 @@ button:hover {
 }
 
 /* ===== RESPONSIVE MOBILE ===== */
-@media (max-width: 768px) {
 
-    header {
-        flex-direction: column;
-        text-align: center;
-    }
 
-    nav {
-        margin-top: 10px;
-    }
+    
 
-    nav a {
-        display: block;
-        margin: 10px 0;
-    }
-
-    .hero {
-        padding: 30px 15px;
-    }
-
-    h1 {
-        font-size: 24px;
-    }
-
-    h2 {
-        font-size: 20px;
-    }
-
-    p {
-        font-size: 16px;
-    }
-
-    form {
-        width: 100%;
-        padding: 0 15px;
-    }
-
-    input, textarea, button {
-        font-size: 16px;
-    }
-
-    .whatsapp {
-        width: 100%;
-        box-sizing: border-box;
-    }
 }
 @media (max-width: 768px) {
     ...
@@ -168,6 +127,13 @@ button:hover {
         border-bottom: 1px solid rgba(255,255,255,0.3);
     }
 }
+
+
+
+   
+      
+        
+
 
 
 
