@@ -127,12 +127,69 @@ button:hover {
         border-bottom: 1px solid rgba(255,255,255,0.3);
     }
 }
+/* NOS BOX */
+.boxes {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.boxes h2 {
+    color: #d35400;
+    margin-bottom: 30px;
+}
+
+.box-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.box {
+    background-color: #fff6e5;
+    border-radius: 10px;
+    width: 280px;
+    padding: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.box img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.box h3 {
+    margin: 15px 0 5px;
+}
+
+.box p {
+    font-size: 14px;
+}
+
+.box strong {
+    display: block;
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.box a {
+    display: block;
+    background-color: #25D366;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
 
 
 
    
       
         
+
 
 
 
